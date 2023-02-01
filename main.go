@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-const name = "Golang"
+const name = "GitOps"
 
 func main() {
 	http.HandleFunc("/", func(writer http.ResponseWriter, request *http.Request) {
